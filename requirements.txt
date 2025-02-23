@@ -1,0 +1,10 @@
+scikit-learn==1.3.0
+Flask
+pandas
+joblib
+speechrecognition
+peewee
+langchain
+langchain-mistralai
+requests
+PyMuPDF
