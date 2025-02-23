@@ -8,3 +8,4 @@ langchain
 langchain-mistralai
 requests
 PyMuPDF
+gunicorn
