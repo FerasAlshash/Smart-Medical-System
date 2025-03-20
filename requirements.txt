@@ -1,12 +1,31 @@
-scikit-learn
-Flask
-pandas
-joblib
-speechrecognition
-peewee
-langchain
-langchain-mistralai
-requests
-PyMuPDF
-gunicorn
-Pillow
+# Web Framework
+flask==3.0.3
+
+# Database Management
+peewee==3.17.6
+sqlite3  # Built-in, no need to install separately
+
+# Data Processing and Machine Learning
+pandas==2.2.2
+joblib==1.4.2
+numpy==1.26.4
+
+# Image and Document Processing
+opencv-python==4.10.0.84
+PyMuPDF==1.24.9  # For fitz module
+
+# HTTP Requests
+requests==2.32.3
+
+# Language Model and Chatbot
+langchain==0.3.0
+langchain-mistralai==0.1.12  # For ChatMistralAI
+langchain-community==0.3.0  # Optional, for additional utilities if needed
+
+# Environment Variables
+python-dotenv==1.0.1
+
+# Speech Recognition
+SpeechRecognition==3.10.4
+# Note: Requires PyAudio for microphone input if used
+pyaudio==0.2.14; sys_platform != 'win32'  # Optional, for non-Windows systems
