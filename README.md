@@ -1,8 +1,11 @@
 # Smart Medical System: AI-Powered Health Monitoring and Analysis
 
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.0%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+![Smart-Medical-System](https://github.com/FerasAlshash/Smart-Medical-System/blob/main/Smart%20Medical%20System.png)
 
 HealthSync is a web application designed to assist users in predicting diabetes risk, tracking health metrics (blood sugar and blood pressure), and analyzing medical reports using AI-powered tools.
 Built with Python and Flask, it integrates machine learning, natural language processing (NLP), and optical character recognition (OCR) to provide a comprehensive health management experience.
